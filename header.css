@@ -1,0 +1,14 @@
+.header{
+    min-height:100px;
+    background-color:#3742fa;
+    width:100%;
+  }
+  body{
+    margin:0;    
+  }
+
+  #newResBtn{
+    text-align: end;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }

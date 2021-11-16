@@ -1,0 +1,182 @@
+.header {
+  grid-area: header;
+  background: #3742fa;
+}
+.main {
+  grid-area: main;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "main main main main main main";
+  grid-gap: 10px;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.logoField {
+  grid-area: logoField;
+  text-align: left;
+  margin-left: 20px;
+}
+.newResBtn {
+  grid-area: newResBtn;
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 65px;
+}
+
+.grid-container-header {
+  display: grid;
+  grid-template-areas: "logoField  logoField  logoField  newResBtn newResBtn newResBtn";
+  grid-gap: 10px;
+}
+
+.hotelSelection { grid-area: hotelSelection; }
+.beginDateContent { grid-area: beginDateContent; }
+.endDateContent { grid-area: endDateContent; }
+.adultNumber { grid-area: adultNumber; }
+.childNumber { grid-area: childNumber; }
+
+.grid-container-resProcess {
+  display: grid;
+  grid-template-areas:
+    'hotelSelection hotelSelection hotelSelection hotelSelection'
+    'beginDateContent endDateContent adultNumber childNumber';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container-resProcess h6{
+    margin-bottom: 12px;
+    float: left;
+} 
+
+
+.inputTitle { grid-area: inputTitle; }
+.inputContent { grid-area: inputContent; }
+
+.grid-container-input {
+  display: grid;
+  grid-template-areas:
+    'inputTitle'
+    'inputContent';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.paymentSummary { grid-area: paymentSummary; }
+.cardInfo { grid-area: cardInfo; }
+
+.grid-container-payment {
+  display: grid;
+  grid-template-areas:
+    'cardInfo paymentSummary';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.item1 { grid-area: item1; }
+.item2 { grid-area: item2; }
+.item3 { grid-area: item3; }
+.item4 { grid-area: item4; }
+.item5 { grid-area: item5; }
+.item6 { grid-area: item6; }
+.item7 { grid-area: item7; }
+.item8 { grid-area: item8; }
+
+.grid-container-detail {
+  display: grid;
+  grid-template-areas:
+    'item1 item2'
+    'item3 item4'
+    'item5 item6'
+    'item7 item7'
+    'item8 item8';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container-detail > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.dayNumber { grid-area: dayNumber; }
+.adultNumberInfo { grid-area: adultNumberInfo; }
+.hotelPrice { grid-area: hotelPrice; }
+
+.grid-container-hotelInfo {
+  display: grid;
+  grid-template-areas:
+    'dayNumber hotelPrice'
+    'adultNumberInfo hotelPrice';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.effectRate { grid-area: effectRate; }
+.effectPercent { grid-area: effectPercent; }
+
+.grid-container-viewInfo {
+  display: grid;
+  grid-template-areas:
+    'effectRate effectPercent';
+  grid-gap: 10px;
+  padding: 
+  10px;
+}
+
+.iconHeader { grid-area: iconHeader; }
+.resultInfo { grid-area: resultInfo; }
+.resultText { grid-area: resultText; }
+.newReservation { grid-area: newReservation; }
+.updateReservation { grid-area: updateReservation; }
+.deleteReservation { grid-area: deleteReservation; }
+
+.grid-container-result {
+  display: grid;
+  grid-template-areas:
+    'iconHeader iconHeader iconHeader'
+    'resultInfo resultInfo resultInfo'
+    'resultText resultText resultText'
+    'newReservation updateReservation deleteReservation';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.iconHeader img{
+  width: 5%;
+  height: auto;
+}
+
+.resultInfo{
+  margin-top: -30px;
+}
+
+.resultText{
+  margin-top:  -50px;
+}
+
+.hotelNameChoice { grid-area: hotelNameChoice; }
+.inputInfo { grid-area: inputInfo; }
+
+.grid-container-inputInfo {
+  display: grid;
+  grid-template-areas:
+    'hotelNameChoice'
+    'inputInfo';
+  grid-gap: 10px;
+  padding: 10px;
+}
